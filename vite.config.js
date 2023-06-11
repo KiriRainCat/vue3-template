@@ -19,7 +19,7 @@ export default defineConfig({
     AutoImport({
       dts: './src/auto-imports.d.ts',
       eslintrc: {
-        enabled: true, // 启用与 Eslint 集成
+        enabled: true,
         filepath: './eslintrc-auto-import.json',
         globalsPropValue: true,
       },

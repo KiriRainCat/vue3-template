@@ -10,9 +10,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useI18n } from 'vue-i18n'
-
 const lang = ref(localStorage.getItem('LANG'))
 
 const { locale } = useI18n()
