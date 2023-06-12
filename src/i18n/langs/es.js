@@ -1,9 +1,7 @@
 import esLocale from 'element-plus/lib/locale/lang/es'
 
 const es = {
-  words: {
-
-  },
+  words: {},
   messages: {
     createBy: 'Creado por: KiriRainCat (Sam Zhou)',
   },
