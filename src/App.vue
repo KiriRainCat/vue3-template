@@ -3,10 +3,11 @@
 </template>
 
 <script setup>
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 
 onBeforeMount(() => {
   locale.value = localStorage.getItem('LANG')
+  document.title = t("messages.appName")
 })
 </script>
 

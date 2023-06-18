@@ -15,10 +15,11 @@ lyHtmlVueInspection -->lyHtmlVueInspection -->
 <script setup>
 const lang = ref(localStorage.getItem('LANG'))
 
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 
 const onChange = () => {
   locale.value = lang.value
   localStorage.setItem('LANG', lang.value)
+  document.title = t("messages.appName")
 }
 </script>
