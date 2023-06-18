@@ -28,10 +28,7 @@ export default defineConfig({
     }),
     Components({
       dts: './src/components.d.ts',
-      resolvers: [
-        ElementPlusResolver(),
-        IconResolver(),
-      ],
+      resolvers: [ElementPlusResolver(), IconResolver()],
     }),
     ElementPlus(),
     Icons({ autoInstall: true, compiler: 'vue3' }),
