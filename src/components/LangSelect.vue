@@ -1,3 +1,6 @@
+<!--suppress AllyHtmlVueInspection, AllyHtmlVueInspection -->
+lyHtmlVueInspection -->lyHtmlVueInspection -->
+
 <template>
   <div>
     <el-select v-model="lang" clearable @change="onChange">
