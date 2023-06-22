@@ -4,7 +4,7 @@ lyHtmlVueInspection -->lyHtmlVueInspection -->
 <template>
   <div>
     <el-select v-model="lang" clearable @change="onChange">
-      <el-option label="中文" value="zhcn"></el-option>
+      <el-option label="中文" value="zhCN"></el-option>
       <el-option label="English" value="en"></el-option>
       <el-option label="Español" value="es"></el-option>
       <el-option label="한국어" value="ko"></el-option>
