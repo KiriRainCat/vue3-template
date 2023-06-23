@@ -1,9 +1,9 @@
 <template>
-  <main class="text-center bg-gray-100 min-h-screen flex justify-center items-center relative">
-    <el-card class="rounded-lg shadow-lg min-w-[360px] max-w-[540px]">
+  <main class="relative flex min-h-screen items-center justify-center bg-gray-100 text-center">
+    <el-card class="min-w-[360px] max-w-[540px] rounded-lg shadow-lg">
       <LangSelect />
     </el-card>
-    <div class="absolute bottom-2 text-center italic font-mono">
+    <div class="absolute bottom-2 text-center font-mono italic">
       <div>{{ $t('messages.createBy') }}</div>
     </div>
   </main>
