@@ -1,54 +1,51 @@
-# vue3-template
+# 柒夜雨猫的 Vue3 项目模板（基于 TypeScript）
 
-This template should help get you started developing with Vue 3 in Vite.
+此模板包含了：
 
-## Recommended IDE Setup
+- Vite 4 + Vue 3 + TypeScript（也支持 TSX）
+- Vue Router 4
+- Pinia
+- Axios
+- Vue i18n
+- TailwindCSS
+- Element Plus
+- Cypress
+- | Vue，Router，Pinia，i18n 的 API | Vue 组件 | UI 框架组件 | → **均支持自动引入** ヾ(✿ ﾟ ▽ ﾟ)ノ
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+---
 
-## Type Support for `.vue` Imports in TS
+## 推荐的 IDE 设置
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（最好使用 Take Over 模式，关闭 VsCode 自带的 TS/JS 支持）
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 安装依赖
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 启动 Vite Dev 服务器
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 检查类型 & 打包生产环境文件
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### 使用 [Cypress](https://www.cypress.io/) 进行组件测试
 
 ```sh
 npm run test:unit
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+### 使用 [Cypress](https://www.cypress.io/) 进行 e2e 测试
 
 ```sh
-npm run test:e2e:dev
+npm run test:e2e
 ```
 
 This runs the end-to-end tests against the Vite development server.
@@ -58,10 +55,16 @@ But it's still recommended to test the production build with `test:e2e` before d
 
 ```sh
 npm run build
-npm run test:e2e
+npm run test:e2e:prod
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### 使用 [Prettier](https://prettier.io/) 进行格式化
+
+```sh
+npm run format
+```
+
+### 使用 [ESLint](https://eslint.org/) 代码规范检查
 
 ```sh
 npm run lint
