@@ -1,0 +1,14 @@
+{
+  "include": ["src/i18n/**/*", "**/*.d.ts"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.cypress-ct.json"
+    }
+  ]
+}
