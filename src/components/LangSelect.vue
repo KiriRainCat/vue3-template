@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { langs } from '@/i18n'
+import { langs } from '../i18n'
 
 const lang = ref(localStorage.getItem('LANG'))
 
