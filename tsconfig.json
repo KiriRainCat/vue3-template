@@ -1,5 +1,5 @@
 {
-  "include": ["src/i18n/**/*", "**/*.d.ts"],
+  "include": ["src/i18n/**/*"],
   "references": [
     {
       "path": "./tsconfig.node.json"
