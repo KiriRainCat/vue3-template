@@ -1,6 +1,5 @@
 import axios from 'axios'
-// @ts-expect-error
-import { ElMessage } from 'element-plus/es/components/index.js'
+import { ElMessage } from 'element-plus'
 
 const defaultFailure = (msg: string) => ElMessage.warning(msg)
 const defaultError = () => ElMessage.error('Got some error, please contact the administrator')
