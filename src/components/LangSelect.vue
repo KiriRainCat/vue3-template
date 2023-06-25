@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import { langs } from '../i18n'
 
-const lang = ref(localStorage.getItem('LANG'))
+const lang = ref(localStorage.getItem('LANG')!)
 
 const { locale, t } = useI18n()
 
