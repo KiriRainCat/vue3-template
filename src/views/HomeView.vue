@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-full items-center justify-center bg-slate-100">
+  <div style="text-align: center; margin-top: 20rem">
     <HelloWorld />
   </div>
 </template>

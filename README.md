@@ -2,8 +2,6 @@
 
 > Vite 4 + Vue 3 + TypeScript（也支持 TSX）
 >
-> TailwindCSS | Prettier class 排序插件
->
 > API | 组件 自动引入
 >
 > Prettier | Eslint
